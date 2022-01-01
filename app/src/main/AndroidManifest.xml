@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.saivittalb.audiogram">
+
+    <uses-feature android:name="android.hardware.bluetooth" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/headphones_ico_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Audiogram">
+        <activity
+            android:name="com.saivittalb.audiogram.GraphActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name="com.saivittalb.audiogram.SoundGenerationTest"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name="com.saivittalb.audiogram.ResultActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name="com.saivittalb.audiogram.ExaminationActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.saivittalb.audiogram.CalibrationActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.HEADSET_PLUG" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.saivittalb.audiogram.ProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.saivittalb.audiogram.CalibrationActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.saivittalb.audiogram.AboutGraphActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.saivittalb.audiogram.AboutAppActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.saivittalb.audiogram.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.saivittalb.audiogram.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.saivittalb.audiogram.RegisterActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.saivittalb.audiogram.StartActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

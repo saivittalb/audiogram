@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Audiogram Beta</string>
+    <string name="audiogram">Audiogram</string>
+    <string name="calibration">Calibration</string>
+    <string name="startapp">Start</string>
+    <string name="logout">Logout</string>
+    <string name="aboutprogram">About program</string>
+    <string name="calibration_buttons_desc">The Calibrate button recreates the calibration signal <br /> The Stop button stops the calibration signal</string>
+    <string name="backtomainpage">Home</string>
+    <string name="start_calibration">Calibrate</string>
+    <string name="stop_calibration">Stop</string>
+    <string name="hear_sound">I hear a sound</string>
+    <string name="leftear">Left ear</string>
+    <string name="rightear">Right ear</string>
+    <string name="graph_desribe">An audiogram is a graph that shows what the softest sound a test person can hear is. The test is carried out on sounds of different frequencies (i.e. pitches), thanks to which the hearing threshold for different sounds can be determined. The values in dB HL are placed on the vertical axis, the less dB will be obtained in the test, the lower the hearing loss will be. The standard in the tests is lower than 25 dB HL inclusive. The frequencies are plotted on the horizontal axis. The value of the sensitivity of our hearing is therefore at the intersection of these two values.</string>
+    <string name="about_pp">Based on the generated signals, the application we have built determines the level of hearing loss. The result of the test is a quantified hearing loss and a graph generated on this basis.</string>
+    <string name="audiogramgraph">Audiogram chart</string>
+    <string name="about_calibration">The calibration signal is a 1kHz tone with an amplitude changing alternately in 5dB period every 1 s. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Strings used for fragments for navigation -->
+
+
+</resources>
