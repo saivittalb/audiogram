@@ -23,6 +23,7 @@ Following versions were used in the development:
 ## Table of contents
 
 * [License](#license)
+* [Android APK build (Debug)](#android-apk-build-debug)
 * [Components](#components)
 * [Working](#working)
 * [Installation](#installation)
@@ -34,6 +35,11 @@ Following versions were used in the development:
 This project is licensed under the Apache License 2.0, a permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code. Trademark use is also strictly prohibited. Any material found which vandalises or threatens any sort of plagiarism will be strictly given a legal action.
 
 <p align="center"> Copyright (c) 2022 Sai Vittal B. All rights reserved.</p>
+
+## Android APK Build (Debug)
+
+The ```.apk``` debug build variant of this app that you can install on your Android device is available here in the link below. \
+https://firebasestorage.googleapis.com/v0/b/audiogram-2ccc8.appspot.com/o/app-debug.apk?alt=media&token=aeaa9b31-1205-4f96-bd4a-37b747ccfc69
 
 ## Components
 
